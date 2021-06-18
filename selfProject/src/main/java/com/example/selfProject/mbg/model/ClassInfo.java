@@ -1,5 +1,6 @@
 package com.example.selfProject.mbg.model;
 
+import io.swagger.annotations.ApiModelProperty;
 import java.io.Serializable;
 
 public class ClassInfo implements Serializable {
