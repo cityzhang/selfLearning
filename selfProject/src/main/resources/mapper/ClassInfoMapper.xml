@@ -119,7 +119,7 @@
       </if>
     </trim>
   </insert>
-  <select id="countByExample" parameterType="com.example.selfProject.mbg.model.ClassInfoExample" resultType="java.lang.Integer">
+  <select id="countByExample" parameterType="com.example.selfProject.mbg.model.ClassInfoExample" resultType="java.lang.Long">
     select count(*) from class_info
     <if test="_parameter != null">
       <include refid="Example_Where_Clause" />

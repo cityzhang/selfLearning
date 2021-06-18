@@ -6,7 +6,7 @@ import java.util.List;
 import org.apache.ibatis.annotations.Param;
 
 public interface ClassInfoMapper {
-    int countByExample(ClassInfoExample example);
+    long countByExample(ClassInfoExample example);
 
     int deleteByExample(ClassInfoExample example);
 
