@@ -40,7 +40,7 @@ spring:
   elasticsearch:
     rest:
       # 逗号分隔的Elasticsearch实例使用的列表
-      uris: http://172.0.16.249:9997
+      uris: http://localhost:9200
 redis:
   key:
     prefix:

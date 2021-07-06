@@ -10,4 +10,6 @@ public interface TestMapper {
     List<User> findAllUser();
 
     int insertUser(User user);
+
+    User checkUser(User user);
 }

@@ -10,4 +10,5 @@ public class User {
     @ApiModelProperty(value = "student id")
     Integer id;
     String name;
+    String password;
 }

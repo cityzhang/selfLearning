@@ -29,6 +29,7 @@ public class JwtTokenUtils {
     private String generateToken(Map<String, Object> claims) {
         return Jwts.builder()
                 .setClaims(claims)
+                .setSubject((String)claims.get("sub"))
                 .setExpiration(generateExpirationDate())
                 .signWith(SignatureAlgorithm.HS512, jwtTokenProperties.getSecret())
                 .compact();

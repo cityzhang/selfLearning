@@ -15,4 +15,8 @@ public class UserService {
     public void addUser(User user){
         testMapper.insertUser(user);
     }
+
+    public User checkUser(User user){
+        return testMapper.checkUser(user);
+    }
 }
